@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## A button library for personal use
 
 You can use the [editor on GitHub](https://github.com/radu-cananau/button-library/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
