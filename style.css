@@ -98,131 +98,144 @@ h6 {
 
 /* Font */
 .bottom h2 {
-    color: #ffbf00;
+  color: #ffbf00;
 }
 
 /* Buttons */
 button {
-    text-transform: capitalize;
+  text-transform: capitalize;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btn {
-    border-width: 2px;
-    font-weight: 400;
-    font-size: .8571em;
-    line-height: 1.35em;
-    margin: 10px 1px;
-    border: none;
-    border-radius: 0;
-    padding: 11px 22px;
-    cursor: pointer;
-    background-color: #616161;
-    color: #fff;
+  position: relative;
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 0;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #616161;
+  color: #fff;
+}
+
+button ~ p {
+  position: absolute;
+  font-size: 10px;
+  padding: 0 0 0 5px;
+  margin-top: -10px;
 }
 
 .btn-primary {
-    background-color: #ffbf00;
+  background-color: #ffbf00;
 }
 
 .btn-info {
-    background-color: #2ca8ff;
+  background-color: #2ca8ff;
 }
 
 .btn-success {
-    background-color: #18ce0f;
+  background-color: #18ce0f;
 }
 
 .btn-danger {
-    background-color: #ff3636;
+  background-color: #ff3636;
 }
 
 .btn-warning {
-    background-color: #f96332;
+  background-color: #f96332;
 }
 
 .btn-neutral {
-    background-color: #fff;
-    color: #ffbf00;
+  background-color: #fff;
+  color: #ffbf00;
 }
 
 /* Hover */
 .btn:hover {
-    box-shadow: 0 3px 8px 0 rgba(0,0,0,.17);
-    transition: 0.3s;
-    transform: scale(1.05);
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+  transition: 0.3s;
+  transform: scale(1.05);
 }
 
 .btn-primary:hover {
-    background-color: hsl(45, 100%, 45%);
+  background-color: hsl(45, 100%, 45%);
 }
 
 .btn-info:hover {
-    background-color: hsl(205, 100%, 45%);
+  background-color: hsl(205, 100%, 45%);
 }
 
 .btn-success:hover {
-    background-color: hsl(117, 86%, 35%);
+  background-color: hsl(117, 86%, 35%);
 }
 
 .btn-danger:hover {
-    background-color: hsl(0, 100%, 45%);
+  background-color: hsl(0, 100%, 45%);
 }
 
 .btn-warning:hover {
-    background-color: hsl(15, 94%, 45%);
+  background-color: hsl(15, 94%, 45%);
 }
 
 .btn-default:hover {
-    background-color: hsl(0, 0%, 15%);
+  background-color: hsl(0, 0%, 15%);
 }
 
 .btn-neutral:hover {
-    background-color: #fff;
-    color:hsl(45, 100%, 45%);
+  background-color: #fff;
+  color: hsl(45, 100%, 45%);
 }
 
 /* Style buttons */
 
 i {
-    font-size: inherit !important;
+  font-size: inherit !important;
 }
 
 .btn-round {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 /* Sizes */
 
 .btn-sm {
-    font-size: 14px;
-    padding: 5px 15px;
+  font-size: 14px;
+  padding: 5px 15px;
 }
 
 .btn-lg {
-    font-size: 1em;
-    padding: 15px 48px;
+  font-size: 1em;
+  padding: 15px 48px;
 }
 
 /* Disabled */
 .btn-primary:disabled {
-    background-color: hsl(45, 40%, 75%);
-    transform: none;
-    cursor: default;
+  background-color: hsl(45, 40%, 75%);
+  transform: none;
+  cursor: default;
 }
 
 .btn-default:disabled {
-    background-color: hsl(0, 1%, 55%);
-    transform: none;
-    cursor: default;
+  background-color: hsl(0, 1%, 55%);
+  transform: none;
+  cursor: default;
 }
 
 /* Full width */
 .btn-block {
-    width: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
-    .btn-block:hover {
-        transform: scale(1.01);
-    }
+  .btn-block:hover {
+    transform: scale(1.01);
+  }
 }
