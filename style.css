@@ -232,6 +232,15 @@ i {
 /* Full width */
 .btn-block {
   width: 100%;
+  overflow: hidden;
+}
+
+.btn.btn-block {
+  margin: 15px 5px;
+}
+
+.btn.btn-block ~ p {
+  margin-top: -15px;
 }
 
 @media only screen and (min-width: 768px) {
