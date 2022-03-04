@@ -220,13 +220,13 @@ i {
 .btn-primary:disabled {
   background-color: hsl(45, 40%, 75%);
   transform: none;
-  cursor: default;
+  cursor: not-allowed;
 }
 
 .btn-default:disabled {
   background-color: hsl(0, 1%, 55%);
   transform: none;
-  cursor: default;
+  cursor: not-allowed;
 }
 
 /* Full width */
